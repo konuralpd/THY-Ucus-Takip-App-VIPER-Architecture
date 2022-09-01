@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E72CA95228BE671C00C487B3 /* UcusDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA95128BE671C00C487B3 /* UcusDetayVC.swift */; };
+		E72CA95428BE678300C487B3 /* UcusDetayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA95328BE678300C487B3 /* UcusDetayCell.swift */; };
+		E72CA96328BE6A1E00C487B3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E72CA95A28BE6A1E00C487B3 /* FMDatabase.m */; };
+		E72CA96428BE6A1E00C487B3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E72CA95B28BE6A1E00C487B3 /* FMResultSet.m */; };
+		E72CA96528BE6A1E00C487B3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E72CA95C28BE6A1E00C487B3 /* FMDatabasePool.m */; };
+		E72CA96628BE6A1E00C487B3 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E72CA95F28BE6A1E00C487B3 /* FMDatabaseQueue.m */; };
+		E72CA96728BE6A1E00C487B3 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E72CA96028BE6A1E00C487B3 /* FMDatabaseAdditions.m */; };
+		E72CA96C28BE6B0000C487B3 /* UcusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA96B28BE6B0000C487B3 /* UcusModel.swift */; };
+		E72CA97628BE6CD900C487B3 /* UcusEkleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA97528BE6CD900C487B3 /* UcusEkleProtocols.swift */; };
+		E72CA97828BE6E4000C487B3 /* ucusEkleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA97728BE6E4000C487B3 /* ucusEkleInteractor.swift */; };
+		E72CA97A28BE6FD100C487B3 /* UcusEklePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA97928BE6FD100C487B3 /* UcusEklePresenter.swift */; };
+		E72CA97C28BE706400C487B3 /* UcusEkleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA97B28BE706400C487B3 /* UcusEkleRouter.swift */; };
+		E72CA97E28BE77CA00C487B3 /* UcusBilgi.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E72CA97D28BE77CA00C487B3 /* UcusBilgi.sqlite */; };
+		E72CA98528BE7ADD00C487B3 /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA98428BE7ADD00C487B3 /* AnasayfaProtocols.swift */; };
+		E72CA98728BE7D7900C487B3 /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA98628BE7D7900C487B3 /* AnasayfaInteractor.swift */; };
+		E72CA98928BE811300C487B3 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA98828BE811300C487B3 /* AnasayfaPresenter.swift */; };
+		E72CA98B28BE828400C487B3 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72CA98A28BE828400C487B3 /* AnasayfaRouter.swift */; };
+		E7CDE28228BCC95D003919EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDE28128BCC95D003919EA /* AppDelegate.swift */; };
+		E7CDE28428BCC95D003919EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDE28328BCC95D003919EA /* SceneDelegate.swift */; };
+		E7CDE28628BCC95D003919EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDE28528BCC95D003919EA /* ViewController.swift */; };
+		E7CDE28928BCC95D003919EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CDE28728BCC95D003919EA /* Main.storyboard */; };
+		E7CDE28C28BCC95D003919EA /* FlightPlanning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7CDE28A28BCC95D003919EA /* FlightPlanning.xcdatamodeld */; };
+		E7CDE28E28BCC95E003919EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CDE28D28BCC95E003919EA /* Assets.xcassets */; };
+		E7CDE29128BCC95E003919EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CDE28F28BCC95E003919EA /* LaunchScreen.storyboard */; };
+		E7CDE29928BE48E9003919EA /* anaEkranVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDE29828BE48E9003919EA /* anaEkranVC.swift */; };
+		E7CDE29E28BE5D08003919EA /* ucusEkleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CDE29D28BE5D08003919EA /* ucusEkleVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E72CA95128BE671C00C487B3 /* UcusDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UcusDetayVC.swift; sourceTree = "<group>"; };
+		E72CA95328BE678300C487B3 /* UcusDetayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UcusDetayCell.swift; sourceTree = "<group>"; };
+		E72CA95728BE6A1D00C487B3 /* FlightPlanning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlightPlanning-Bridging-Header.h"; sourceTree = "<group>"; };
+		E72CA95828BE6A1E00C487B3 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		E72CA95928BE6A1E00C487B3 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E72CA95A28BE6A1E00C487B3 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E72CA95B28BE6A1E00C487B3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		E72CA95C28BE6A1E00C487B3 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		E72CA95D28BE6A1E00C487B3 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		E72CA95E28BE6A1E00C487B3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		E72CA95F28BE6A1E00C487B3 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E72CA96028BE6A1E00C487B3 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E72CA96128BE6A1E00C487B3 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E72CA96228BE6A1E00C487B3 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		E72CA96928BE6A6B00C487B3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E72CA96B28BE6B0000C487B3 /* UcusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UcusModel.swift; sourceTree = "<group>"; };
+		E72CA97528BE6CD900C487B3 /* UcusEkleProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UcusEkleProtocols.swift; sourceTree = "<group>"; };
+		E72CA97728BE6E4000C487B3 /* ucusEkleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ucusEkleInteractor.swift; sourceTree = "<group>"; };
+		E72CA97928BE6FD100C487B3 /* UcusEklePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UcusEklePresenter.swift; sourceTree = "<group>"; };
+		E72CA97B28BE706400C487B3 /* UcusEkleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UcusEkleRouter.swift; sourceTree = "<group>"; };
+		E72CA97D28BE77CA00C487B3 /* UcusBilgi.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = UcusBilgi.sqlite; sourceTree = "<group>"; };
+		E72CA98428BE7ADD00C487B3 /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		E72CA98628BE7D7900C487B3 /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		E72CA98828BE811300C487B3 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		E72CA98A28BE828400C487B3 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		E7CDE27E28BCC95D003919EA /* FlightPlanning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightPlanning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CDE28128BCC95D003919EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7CDE28328BCC95D003919EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7CDE28528BCC95D003919EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7CDE28828BCC95D003919EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7CDE28B28BCC95D003919EA /* FlightPlanning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlightPlanning.xcdatamodel; sourceTree = "<group>"; };
+		E7CDE28D28BCC95E003919EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7CDE29028BCC95E003919EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7CDE29228BCC95E003919EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7CDE29828BE48E9003919EA /* anaEkranVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anaEkranVC.swift; sourceTree = "<group>"; };
+		E7CDE29D28BE5D08003919EA /* ucusEkleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ucusEkleVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7CDE27B28BCC95D003919EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E72CA96828BE6A6B00C487B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA96928BE6A6B00C487B3 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72CA96A28BE6AE500C487B3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA96B28BE6B0000C487B3 /* UcusModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E72CA96E28BE6C2F00C487B3 /* Anasayfa-Module */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA98328BE7A9300C487B3 /* protocols */,
+				E72CA98228BE7A8D00C487B3 /* router */,
+				E72CA98128BE7A8400C487B3 /* presenter */,
+				E72CA98028BE7A7A00C487B3 /* interactor */,
+				E72CA97F28BE7A6B00C487B3 /* view */,
+			);
+			path = "Anasayfa-Module";
+			sourceTree = "<group>";
+		};
+		E72CA96F28BE6C4300C487B3 /* UcusEkle- Module */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA97428BE6CAB00C487B3 /* router */,
+				E72CA97328BE6CA500C487B3 /* presenter */,
+				E72CA97228BE6C9800C487B3 /* interactor */,
+				E72CA97128BE6C9300C487B3 /* view */,
+				E72CA97028BE6C8700C487B3 /* protocols */,
+			);
+			path = "UcusEkle- Module";
+			sourceTree = "<group>";
+		};
+		E72CA97028BE6C8700C487B3 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA97528BE6CD900C487B3 /* UcusEkleProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		E72CA97128BE6C9300C487B3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E7CDE29D28BE5D08003919EA /* ucusEkleVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E72CA97228BE6C9800C487B3 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA97728BE6E4000C487B3 /* ucusEkleInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		E72CA97328BE6CA500C487B3 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA97928BE6FD100C487B3 /* UcusEklePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		E72CA97428BE6CAB00C487B3 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA97B28BE706400C487B3 /* UcusEkleRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		E72CA97F28BE7A6B00C487B3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E7CDE29828BE48E9003919EA /* anaEkranVC.swift */,
+				E72CA95128BE671C00C487B3 /* UcusDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E72CA98028BE7A7A00C487B3 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA98628BE7D7900C487B3 /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		E72CA98128BE7A8400C487B3 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA98828BE811300C487B3 /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		E72CA98228BE7A8D00C487B3 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA98A28BE828400C487B3 /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		E72CA98328BE7A9300C487B3 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA98428BE7ADD00C487B3 /* AnasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		E7CDE27528BCC95D003919EA = {
+			isa = PBXGroup;
+			children = (
+				E7CDE28028BCC95D003919EA /* FlightPlanning */,
+				E7CDE27F28BCC95D003919EA /* Products */,
+				E72CA96828BE6A6B00C487B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7CDE27F28BCC95D003919EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7CDE27E28BCC95D003919EA /* FlightPlanning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7CDE28028BCC95D003919EA /* FlightPlanning */ = {
+			isa = PBXGroup;
+			children = (
+				E72CA96F28BE6C4300C487B3 /* UcusEkle- Module */,
+				E72CA96E28BE6C2F00C487B3 /* Anasayfa-Module */,
+				E72CA96A28BE6AE500C487B3 /* Entity */,
+				E7CDE28128BCC95D003919EA /* AppDelegate.swift */,
+				E7CDE28328BCC95D003919EA /* SceneDelegate.swift */,
+				E7CDE28528BCC95D003919EA /* ViewController.swift */,
+				E72CA95328BE678300C487B3 /* UcusDetayCell.swift */,
+				E7CDE28728BCC95D003919EA /* Main.storyboard */,
+				E7CDE28D28BCC95E003919EA /* Assets.xcassets */,
+				E7CDE28F28BCC95E003919EA /* LaunchScreen.storyboard */,
+				E7CDE29228BCC95E003919EA /* Info.plist */,
+				E7CDE28A28BCC95D003919EA /* FlightPlanning.xcdatamodeld */,
+				E72CA95D28BE6A1E00C487B3 /* FMDatabase.h */,
+				E72CA95A28BE6A1E00C487B3 /* FMDatabase.m */,
+				E72CA95928BE6A1E00C487B3 /* FMDatabaseAdditions.h */,
+				E72CA96028BE6A1E00C487B3 /* FMDatabaseAdditions.m */,
+				E72CA95828BE6A1E00C487B3 /* FMDatabasePool.h */,
+				E72CA95C28BE6A1E00C487B3 /* FMDatabasePool.m */,
+				E72CA96128BE6A1E00C487B3 /* FMDatabaseQueue.h */,
+				E72CA95F28BE6A1E00C487B3 /* FMDatabaseQueue.m */,
+				E72CA96228BE6A1E00C487B3 /* FMDB.h */,
+				E72CA95E28BE6A1E00C487B3 /* FMResultSet.h */,
+				E72CA95B28BE6A1E00C487B3 /* FMResultSet.m */,
+				E72CA95728BE6A1D00C487B3 /* FlightPlanning-Bridging-Header.h */,
+				E72CA97D28BE77CA00C487B3 /* UcusBilgi.sqlite */,
+			);
+			path = FlightPlanning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7CDE27D28BCC95D003919EA /* FlightPlanning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7CDE29528BCC95E003919EA /* Build configuration list for PBXNativeTarget "FlightPlanning" */;
+			buildPhases = (
+				E7CDE27A28BCC95D003919EA /* Sources */,
+				E7CDE27B28BCC95D003919EA /* Frameworks */,
+				E7CDE27C28BCC95D003919EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightPlanning;
+			packageProductDependencies = (
+			);
+			productName = FlightPlanning;
+			productReference = E7CDE27E28BCC95D003919EA /* FlightPlanning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7CDE27628BCC95D003919EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E7CDE27D28BCC95D003919EA = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = E7CDE27928BCC95D003919EA /* Build configuration list for PBXProject "FlightPlanning" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7CDE27528BCC95D003919EA;
+			packageReferences = (
+			);
+			productRefGroup = E7CDE27F28BCC95D003919EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7CDE27D28BCC95D003919EA /* FlightPlanning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7CDE27C28BCC95D003919EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CDE29128BCC95E003919EA /* LaunchScreen.storyboard in Resources */,
+				E7CDE28E28BCC95E003919EA /* Assets.xcassets in Resources */,
+				E7CDE28928BCC95D003919EA /* Main.storyboard in Resources */,
+				E72CA97E28BE77CA00C487B3 /* UcusBilgi.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7CDE27A28BCC95D003919EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72CA98528BE7ADD00C487B3 /* AnasayfaProtocols.swift in Sources */,
+				E7CDE28C28BCC95D003919EA /* FlightPlanning.xcdatamodeld in Sources */,
+				E72CA95228BE671C00C487B3 /* UcusDetayVC.swift in Sources */,
+				E7CDE29E28BE5D08003919EA /* ucusEkleVC.swift in Sources */,
+				E72CA96328BE6A1E00C487B3 /* FMDatabase.m in Sources */,
+				E72CA97628BE6CD900C487B3 /* UcusEkleProtocols.swift in Sources */,
+				E72CA96428BE6A1E00C487B3 /* FMResultSet.m in Sources */,
+				E72CA98928BE811300C487B3 /* AnasayfaPresenter.swift in Sources */,
+				E72CA96C28BE6B0000C487B3 /* UcusModel.swift in Sources */,
+				E72CA96628BE6A1E00C487B3 /* FMDatabaseQueue.m in Sources */,
+				E72CA96528BE6A1E00C487B3 /* FMDatabasePool.m in Sources */,
+				E7CDE29928BE48E9003919EA /* anaEkranVC.swift in Sources */,
+				E72CA96728BE6A1E00C487B3 /* FMDatabaseAdditions.m in Sources */,
+				E72CA97C28BE706400C487B3 /* UcusEkleRouter.swift in Sources */,
+				E7CDE28628BCC95D003919EA /* ViewController.swift in Sources */,
+				E72CA95428BE678300C487B3 /* UcusDetayCell.swift in Sources */,
+				E72CA97A28BE6FD100C487B3 /* UcusEklePresenter.swift in Sources */,
+				E7CDE28228BCC95D003919EA /* AppDelegate.swift in Sources */,
+				E72CA98B28BE828400C487B3 /* AnasayfaRouter.swift in Sources */,
+				E7CDE28428BCC95D003919EA /* SceneDelegate.swift in Sources */,
+				E72CA98728BE7D7900C487B3 /* AnasayfaInteractor.swift in Sources */,
+				E72CA97828BE6E4000C487B3 /* ucusEkleInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7CDE28728BCC95D003919EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7CDE28828BCC95D003919EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7CDE28F28BCC95E003919EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7CDE29028BCC95E003919EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7CDE29328BCC95E003919EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7CDE29428BCC95E003919EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7CDE29628BCC95E003919EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK6JZPN47S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlightPlanning/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asilcetinkaya.FlightPlanning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlightPlanning/FlightPlanning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7CDE29728BCC95E003919EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK6JZPN47S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlightPlanning/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asilcetinkaya.FlightPlanning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlightPlanning/FlightPlanning-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7CDE27928BCC95D003919EA /* Build configuration list for PBXProject "FlightPlanning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CDE29328BCC95E003919EA /* Debug */,
+				E7CDE29428BCC95E003919EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7CDE29528BCC95E003919EA /* Build configuration list for PBXNativeTarget "FlightPlanning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CDE29628BCC95E003919EA /* Debug */,
+				E7CDE29728BCC95E003919EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7CDE28A28BCC95D003919EA /* FlightPlanning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7CDE28B28BCC95D003919EA /* FlightPlanning.xcdatamodel */,
+			);
+			currentVersion = E7CDE28B28BCC95D003919EA /* FlightPlanning.xcdatamodel */;
+			path = FlightPlanning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7CDE27628BCC95D003919EA /* Project object */;
+}
